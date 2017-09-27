@@ -587,12 +587,12 @@ def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color, th
     window.render()
     #Also could've been done by the following
     #endPoints = generate_points_on_circle(circle,number_of_lines)
-    #for k in range(number_of_lines)
-    #   line = rg.Line(endPoints[k % number_of_lines],endPoints[(k + hops_to_next_position) % number_of_lines])
+    # for k in range(number_of_lines):
+    #   line = rg.Line(endPoints[k % number_of_lines],endPoints[(k + hops_to_next_point) % number_of_lines])
     #   line.color = color
     #   line.thickness = thickness
     #   line.attach_to(window)
-    #window.render()
+    # window.render()
 
 
 def hop(seq1,currentIndex,hopAmount):
